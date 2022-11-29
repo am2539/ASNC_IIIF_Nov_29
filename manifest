@@ -1,0 +1,206 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://0eb0257d-9582-4288-a530-490c3a79034c",
+	"@type": "sc:Manifest",
+	"label": "Medieval Maps and text from Italy and France",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "this is a demonstration of the way in which the manifest editor works -- I've combined folios from two different manuscript",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Vatican and BnF",
+	"sequences": [
+		{
+			"@id": "http://03ca0103-706b-48dd-a413-d84a45efd9dc",
+			"@type": "sc:Sequence",
+			"label": "Normal Sequence",
+			"canvases": [
+				{
+					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f35",
+					"label": "1",
+					"height": 5045,
+					"width": 4055,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f35",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f35"
+								},
+								"height": 5045,
+								"width": 4055,
+								"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f35/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f35.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 6371",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f43",
+					"label": "2",
+					"height": 5096,
+					"width": 4058,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f43",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f43"
+								},
+								"height": 5096,
+								"width": 4058,
+								"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f43/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f43.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 6371",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f48",
+					"label": "20v",
+					"height": 5100,
+					"width": 3994,
+					"images": [
+						{
+							"motivation": "sc:painting",
+							"on": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/canvas/f48",
+							"resource": {
+								"format": "image/jpeg",
+								"service": {
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+									"@context": "http://iiif.io/api/image/1/context.json",
+									"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f48"
+								},
+								"height": 5100,
+								"width": 3994,
+								"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/f48/full/full/0/native.jpg",
+								"@type": "dctypes:Image"
+							},
+							"@type": "oa:Annotation"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://manuscrits-france-angleterre.org/ark:/12148/btv1b105422858/f48.thumbnail"
+					},
+					"@type": "sc:Canvas",
+					"related": {
+						"@id": "https://manuscrits-france-angleterre.org/iiif/ark:/12148/btv1b105422858/manifest.json",
+						"label": "BnF. Département des Manuscrits. Latin 6371",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/canvas/p0133",
+					"@type": "sc:Canvas",
+					"label": "4",
+					"width": 1976,
+					"height": 2890,
+					"images": [
+						{
+							"@id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/res/anno0133",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/res/img0133",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://digi.vatlib.it/iiifimage/MSS_Pal.lat.1032/Pal.lat.1032_0133_fa_0064r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								},
+								"width": 1976,
+								"height": 2890
+							},
+							"on": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/canvas/p0133"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://digi.vatlib.it/pub/digit/MSS_Pal.lat.1032/thumb/Pal.lat.1032_0133_fa_0064r.tif.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"width": 108,
+						"height": 150
+					},
+					"related": {
+						"@id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/manifest.json",
+						"label": "Pal.lat.1032",
+						"format": ""
+					}
+				},
+				{
+					"@id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/canvas/p0100",
+					"@type": "sc:Canvas",
+					"label": "5",
+					"width": 1992,
+					"height": 2939,
+					"images": [
+						{
+							"@id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/res/anno0100",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/res/img0100",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://digi.vatlib.it/iiifimage/MSS_Pal.lat.1032/Pal.lat.1032_0100_fa_0047v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								},
+								"width": 1992,
+								"height": 2939
+							},
+							"on": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/canvas/p0100"
+						}
+					],
+					"thumbnail": {
+						"@id": "https://digi.vatlib.it/pub/digit/MSS_Pal.lat.1032/thumb/Pal.lat.1032_0100_fa_0047v.tif.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"width": 107,
+						"height": 150
+					},
+					"related": {
+						"@id": "https://digi.vatlib.it/iiif/MSS_Pal.lat.1032/manifest.json",
+						"label": "Pal.lat.1032",
+						"format": ""
+					}
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left to right"
+}
